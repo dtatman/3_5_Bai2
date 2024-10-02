@@ -1,0 +1,19 @@
+<resources>
+    <!-- Style cho Button -->
+    <style name="CustomButtonStyle">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <!-- Theme của ứng dụng -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/material_dynamic_primary0</item>
+        <item name="colorPrimaryDark">@color/cardview_dark_background</item>
+        <item name="colorAccent">@color/cardview_shadow_start_color</item>
+        <!-- Áp dụng Style cho toàn bộ Button trong ứng dụng -->
+        <item name="buttonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+</resources>
